@@ -117,7 +117,12 @@
     "message": "Scanning content..."
   },
   "statusFound": {
-    "message": "Found $COUNT$ deletable items"
+    "message": "Found $COUNT$ deletable items",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   },
   "statusScanFailed": {
     "message": "Scan failed, please make sure X page is open and refresh"
@@ -135,6 +140,11 @@
     "message": "Please select at least one content type"
   },
   "confirmDelete": {
-    "message": "Are you sure you want to delete $COUNT$ items?\nThis action cannot be undone!"
+    "message": "Are you sure you want to delete $COUNT$ items?\nThis action cannot be undone!",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

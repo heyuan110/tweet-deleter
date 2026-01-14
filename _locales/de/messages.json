@@ -117,7 +117,12 @@
     "message": "Inhalte werden gescannt..."
   },
   "statusFound": {
-    "message": "$COUNT$ löschbare Elemente gefunden"
+    "message": "$COUNT$ löschbare Elemente gefunden",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   },
   "statusScanFailed": {
     "message": "Scan fehlgeschlagen, stellen Sie sicher, dass X geöffnet ist und aktualisieren Sie"
@@ -135,6 +140,11 @@
     "message": "Bitte wählen Sie mindestens einen Inhaltstyp aus"
   },
   "confirmDelete": {
-    "message": "Sind Sie sicher, dass Sie $COUNT$ Elemente löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden!"
+    "message": "Sind Sie sicher, dass Sie $COUNT$ Elemente löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden!",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }

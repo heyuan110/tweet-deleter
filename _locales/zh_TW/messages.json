@@ -117,7 +117,12 @@
     "message": "正在掃描內容..."
   },
   "statusFound": {
-    "message": "找到 $COUNT$ 條可刪除內容"
+    "message": "找到 $COUNT$ 條可刪除內容",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   },
   "statusScanFailed": {
     "message": "掃描失敗，請確保已打開 X 頁面並刷新"
@@ -135,6 +140,11 @@
     "message": "請至少選擇一種內容類型"
   },
   "confirmDelete": {
-    "message": "確定要刪除這 $COUNT$ 條內容嗎？\n此操作不可撤銷！"
+    "message": "確定要刪除這 $COUNT$ 條內容嗎？\n此操作不可撤銷！",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
   }
 }
