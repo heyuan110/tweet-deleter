@@ -139,6 +139,12 @@
   "selectContentType": {
     "message": "Veuillez sélectionner au moins un type de contenu"
   },
+  "foundItems": {
+    "message": "Trouvé"
+  },
+  "deletableItems": {
+    "message": "éléments supprimables"
+  },
   "confirmDelete": {
     "message": "Êtes-vous sûr de vouloir supprimer $COUNT$ éléments?\nCette action ne peut pas être annulée!",
     "placeholders": {

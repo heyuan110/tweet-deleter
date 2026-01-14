@@ -139,6 +139,12 @@
   "selectContentType": {
     "message": "Bitte wählen Sie mindestens einen Inhaltstyp aus"
   },
+  "foundItems": {
+    "message": "Gefunden"
+  },
+  "deletableItems": {
+    "message": "löschbare Elemente"
+  },
   "confirmDelete": {
     "message": "Sind Sie sicher, dass Sie $COUNT$ Elemente löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden!",
     "placeholders": {

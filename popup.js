@@ -38,6 +38,8 @@ function initElements() {
   elements.statDeleted = document.getElementById('stat-deleted');
   elements.statFailed = document.getElementById('stat-failed');
   elements.collapsible = document.querySelector('.collapsible');
+  elements.scanResult = document.getElementById('scan-result');
+  elements.scanCount = document.getElementById('scan-count');
 }
 
 // 国际化翻译函数
@@ -265,6 +267,10 @@ async function handleScan() {
 
     if (response && response.success) {
       deletionStats.total = response.count;
+      // 显示扫描结果区域
+      elements.scanCount.textContent = response.count;
+      elements.scanResult.classList.remove('hidden');
+      // 状态栏也显示
       const foundMsg = getMessage('statusFound').replace('$COUNT$', response.count);
       showStatus(foundMsg, 'success');
       elements.btnDelete.disabled = response.count === 0;

@@ -351,6 +351,44 @@ header h1 {
   font-size: 16px;
 }
 
+/* 扫描结果显示 */
+.scan-result {
+  background: linear-gradient(135deg, #1a3d2d 0%, #1d3a4f 100%);
+  border: 1px solid #00ba7c;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.scan-result-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.scan-result-icon {
+  font-size: 24px;
+}
+
+.scan-result-text {
+  font-size: 16px;
+  color: #e7e9ea;
+}
+
+.scan-result-text strong {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00ba7c;
+  margin: 0 4px;
+}
+
 /* 进度条 */
 .progress-section {
   margin-bottom: 16px;

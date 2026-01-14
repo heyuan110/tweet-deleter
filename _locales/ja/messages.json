@@ -1,0 +1,156 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - ツイート一括削除"
+  },
+  "extDescription": {
+    "message": "X (Twitter) のツイート、返信、リポストを一括削除。コンテンツタイプ、期間、キーワードでフィルタリング"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "X/Twitter コンテンツ一括削除"
+  },
+  "contentType": {
+    "message": "コンテンツタイプ"
+  },
+  "tweets": {
+    "message": "ツイート"
+  },
+  "replies": {
+    "message": "返信"
+  },
+  "reposts": {
+    "message": "リポスト"
+  },
+  "timeRange": {
+    "message": "期間"
+  },
+  "startDate": {
+    "message": "開始日"
+  },
+  "endDate": {
+    "message": "終了日"
+  },
+  "last7Days": {
+    "message": "過去7日間"
+  },
+  "last30Days": {
+    "message": "過去30日間"
+  },
+  "last3Months": {
+    "message": "過去3ヶ月"
+  },
+  "last1Year": {
+    "message": "過去1年"
+  },
+  "all": {
+    "message": "すべて"
+  },
+  "keywordFilter": {
+    "message": "キーワードフィルター"
+  },
+  "keywordPlaceholder": {
+    "message": "キーワードをカンマで区切って入力"
+  },
+  "keywordHint": {
+    "message": "これらのキーワードを含むコンテンツのみ削除（空欄ですべて削除）"
+  },
+  "excludeKeywords": {
+    "message": "キーワードを含むコンテンツを除外"
+  },
+  "advancedOptions": {
+    "message": "詳細オプション"
+  },
+  "deleteSpeed": {
+    "message": "削除速度"
+  },
+  "speedSlow": {
+    "message": "遅い（安全）"
+  },
+  "speedNormal": {
+    "message": "普通"
+  },
+  "speedFast": {
+    "message": "速い（リスクあり）"
+  },
+  "batchSize": {
+    "message": "バッチサイズ"
+  },
+  "perBatch": {
+    "message": "/バッチ"
+  },
+  "confirmEach": {
+    "message": "各バッチ前に確認"
+  },
+  "scanContent": {
+    "message": "コンテンツをスキャン"
+  },
+  "startDelete": {
+    "message": "削除開始"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "deleted": {
+    "message": "削除済み"
+  },
+  "deleteResult": {
+    "message": "削除結果"
+  },
+  "totalScanned": {
+    "message": "スキャン合計"
+  },
+  "successDeleted": {
+    "message": "削除成功"
+  },
+  "deleteFailed": {
+    "message": "失敗"
+  },
+  "warningMessage": {
+    "message": "⚠️ 削除操作は取り消せません。ご注意ください"
+  },
+  "statusOpenTwitter": {
+    "message": "まずX (Twitter) を開いてください"
+  },
+  "statusScanning": {
+    "message": "コンテンツをスキャン中..."
+  },
+  "statusFound": {
+    "message": "$COUNT$ 件の削除可能なアイテムが見つかりました",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "statusScanFailed": {
+    "message": "スキャン失敗。Xが開いていることを確認して更新してください"
+  },
+  "statusDeleting": {
+    "message": "コンテンツを削除中..."
+  },
+  "statusDeleteComplete": {
+    "message": "削除完了！"
+  },
+  "statusStopped": {
+    "message": "停止しました"
+  },
+  "selectContentType": {
+    "message": "少なくとも1つのコンテンツタイプを選択してください"
+  },
+  "foundItems": {
+    "message": "見つかりました"
+  },
+  "deletableItems": {
+    "message": "件の削除可能なアイテム"
+  },
+  "confirmDelete": {
+    "message": "$COUNT$ 件のアイテムを削除してもよろしいですか？\nこの操作は取り消せません！",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  }
+}

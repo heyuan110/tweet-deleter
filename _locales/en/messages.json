@@ -139,6 +139,12 @@
   "selectContentType": {
     "message": "Please select at least one content type"
   },
+  "foundItems": {
+    "message": "Found"
+  },
+  "deletableItems": {
+    "message": "deletable items"
+  },
   "confirmDelete": {
     "message": "Are you sure you want to delete $COUNT$ items?\nThis action cannot be undone!",
     "placeholders": {

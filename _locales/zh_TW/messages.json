@@ -139,6 +139,12 @@
   "selectContentType": {
     "message": "請至少選擇一種內容類型"
   },
+  "foundItems": {
+    "message": "找到"
+  },
+  "deletableItems": {
+    "message": "條可刪除內容"
+  },
   "confirmDelete": {
     "message": "確定要刪除這 $COUNT$ 條內容嗎？\n此操作不可撤銷！",
     "placeholders": {
