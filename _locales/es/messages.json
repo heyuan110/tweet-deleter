@@ -1,0 +1,140 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - Eliminar Tweets en Lote"
+  },
+  "extDescription": {
+    "message": "Elimina tweets, respuestas y reposts en X (Twitter) en lote, con filtros de tipo de contenido, rango de tiempo y palabras clave"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "Eliminar Contenido de X/Twitter en Lote"
+  },
+  "contentType": {
+    "message": "Tipo de Contenido"
+  },
+  "tweets": {
+    "message": "Tweets"
+  },
+  "replies": {
+    "message": "Respuestas"
+  },
+  "reposts": {
+    "message": "Reposts"
+  },
+  "timeRange": {
+    "message": "Rango de Tiempo"
+  },
+  "startDate": {
+    "message": "Fecha de Inicio"
+  },
+  "endDate": {
+    "message": "Fecha de Fin"
+  },
+  "last7Days": {
+    "message": "Últimos 7 días"
+  },
+  "last30Days": {
+    "message": "Últimos 30 días"
+  },
+  "last3Months": {
+    "message": "Últimos 3 meses"
+  },
+  "last1Year": {
+    "message": "Último año"
+  },
+  "all": {
+    "message": "Todo"
+  },
+  "keywordFilter": {
+    "message": "Filtro de Palabras Clave"
+  },
+  "keywordPlaceholder": {
+    "message": "Ingrese palabras clave, separadas por comas"
+  },
+  "keywordHint": {
+    "message": "Solo eliminar contenido con estas palabras clave (dejar vacío para eliminar todo)"
+  },
+  "excludeKeywords": {
+    "message": "Excluir contenido con palabras clave"
+  },
+  "advancedOptions": {
+    "message": "Opciones Avanzadas"
+  },
+  "deleteSpeed": {
+    "message": "Velocidad de Eliminación"
+  },
+  "speedSlow": {
+    "message": "Lento (Seguro)"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Rápido (Riesgoso)"
+  },
+  "batchSize": {
+    "message": "Tamaño del Lote"
+  },
+  "perBatch": {
+    "message": "/lote"
+  },
+  "confirmEach": {
+    "message": "Confirmar antes de cada lote"
+  },
+  "scanContent": {
+    "message": "Escanear Contenido"
+  },
+  "startDelete": {
+    "message": "Iniciar Eliminación"
+  },
+  "stop": {
+    "message": "Detener"
+  },
+  "deleted": {
+    "message": "Eliminados"
+  },
+  "deleteResult": {
+    "message": "Resultado de Eliminación"
+  },
+  "totalScanned": {
+    "message": "Total Escaneado"
+  },
+  "successDeleted": {
+    "message": "Eliminados con Éxito"
+  },
+  "deleteFailed": {
+    "message": "Fallidos"
+  },
+  "warningMessage": {
+    "message": "⚠️ Las eliminaciones no se pueden deshacer, úselo con precaución"
+  },
+  "statusOpenTwitter": {
+    "message": "Por favor, abra X (Twitter) primero"
+  },
+  "statusScanning": {
+    "message": "Escaneando contenido..."
+  },
+  "statusFound": {
+    "message": "Encontrados $COUNT$ elementos para eliminar"
+  },
+  "statusScanFailed": {
+    "message": "Escaneo fallido, asegúrese de que X esté abierto y actualice"
+  },
+  "statusDeleting": {
+    "message": "Eliminando contenido..."
+  },
+  "statusDeleteComplete": {
+    "message": "¡Eliminación completada!"
+  },
+  "statusStopped": {
+    "message": "Detenido"
+  },
+  "selectContentType": {
+    "message": "Por favor, seleccione al menos un tipo de contenido"
+  },
+  "confirmDelete": {
+    "message": "¿Está seguro de eliminar $COUNT$ elementos?\n¡Esta acción no se puede deshacer!"
+  }
+}

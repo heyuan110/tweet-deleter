@@ -1,0 +1,140 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - 批量刪除推文"
+  },
+  "extDescription": {
+    "message": "批量刪除 X (Twitter) 上的推文、回覆和轉發，支援內容類型、時間範圍和關鍵詞過濾"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "批量刪除 X/Twitter 內容"
+  },
+  "contentType": {
+    "message": "內容類型"
+  },
+  "tweets": {
+    "message": "推文"
+  },
+  "replies": {
+    "message": "回覆"
+  },
+  "reposts": {
+    "message": "轉發"
+  },
+  "timeRange": {
+    "message": "時間範圍"
+  },
+  "startDate": {
+    "message": "開始日期"
+  },
+  "endDate": {
+    "message": "結束日期"
+  },
+  "last7Days": {
+    "message": "最近7天"
+  },
+  "last30Days": {
+    "message": "最近30天"
+  },
+  "last3Months": {
+    "message": "最近3個月"
+  },
+  "last1Year": {
+    "message": "最近1年"
+  },
+  "all": {
+    "message": "全部"
+  },
+  "keywordFilter": {
+    "message": "關鍵詞過濾"
+  },
+  "keywordPlaceholder": {
+    "message": "輸入關鍵詞，多個用逗號分隔"
+  },
+  "keywordHint": {
+    "message": "只刪除包含這些關鍵詞的內容（留空則刪除所有匹配內容）"
+  },
+  "excludeKeywords": {
+    "message": "排除包含關鍵詞的內容"
+  },
+  "advancedOptions": {
+    "message": "進階選項"
+  },
+  "deleteSpeed": {
+    "message": "刪除速度"
+  },
+  "speedSlow": {
+    "message": "慢速 (安全)"
+  },
+  "speedNormal": {
+    "message": "正常"
+  },
+  "speedFast": {
+    "message": "快速 (有風險)"
+  },
+  "batchSize": {
+    "message": "批量大小"
+  },
+  "perBatch": {
+    "message": "條/批"
+  },
+  "confirmEach": {
+    "message": "每批刪除前確認"
+  },
+  "scanContent": {
+    "message": "掃描內容"
+  },
+  "startDelete": {
+    "message": "開始刪除"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "deleted": {
+    "message": "已刪除"
+  },
+  "deleteResult": {
+    "message": "刪除結果"
+  },
+  "totalScanned": {
+    "message": "總計掃描"
+  },
+  "successDeleted": {
+    "message": "成功刪除"
+  },
+  "deleteFailed": {
+    "message": "刪除失敗"
+  },
+  "warningMessage": {
+    "message": "⚠️ 刪除操作不可撤銷，請謹慎使用"
+  },
+  "statusOpenTwitter": {
+    "message": "請先打開 X (Twitter) 網站"
+  },
+  "statusScanning": {
+    "message": "正在掃描內容..."
+  },
+  "statusFound": {
+    "message": "找到 $COUNT$ 條可刪除內容"
+  },
+  "statusScanFailed": {
+    "message": "掃描失敗，請確保已打開 X 頁面並刷新"
+  },
+  "statusDeleting": {
+    "message": "正在刪除內容..."
+  },
+  "statusDeleteComplete": {
+    "message": "刪除完成！"
+  },
+  "statusStopped": {
+    "message": "已停止刪除"
+  },
+  "selectContentType": {
+    "message": "請至少選擇一種內容類型"
+  },
+  "confirmDelete": {
+    "message": "確定要刪除這 $COUNT$ 條內容嗎？\n此操作不可撤銷！"
+  }
+}

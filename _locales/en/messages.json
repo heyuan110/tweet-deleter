@@ -1,0 +1,140 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - Batch Delete Tweets"
+  },
+  "extDescription": {
+    "message": "Batch delete tweets, replies and reposts on X (Twitter), with content type, time range and keyword filtering"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "Batch Delete X/Twitter Content"
+  },
+  "contentType": {
+    "message": "Content Type"
+  },
+  "tweets": {
+    "message": "Tweets"
+  },
+  "replies": {
+    "message": "Replies"
+  },
+  "reposts": {
+    "message": "Reposts"
+  },
+  "timeRange": {
+    "message": "Time Range"
+  },
+  "startDate": {
+    "message": "Start Date"
+  },
+  "endDate": {
+    "message": "End Date"
+  },
+  "last7Days": {
+    "message": "Last 7 days"
+  },
+  "last30Days": {
+    "message": "Last 30 days"
+  },
+  "last3Months": {
+    "message": "Last 3 months"
+  },
+  "last1Year": {
+    "message": "Last 1 year"
+  },
+  "all": {
+    "message": "All"
+  },
+  "keywordFilter": {
+    "message": "Keyword Filter"
+  },
+  "keywordPlaceholder": {
+    "message": "Enter keywords, separated by commas"
+  },
+  "keywordHint": {
+    "message": "Only delete content containing these keywords (leave empty to delete all matching content)"
+  },
+  "excludeKeywords": {
+    "message": "Exclude content containing keywords"
+  },
+  "advancedOptions": {
+    "message": "Advanced Options"
+  },
+  "deleteSpeed": {
+    "message": "Delete Speed"
+  },
+  "speedSlow": {
+    "message": "Slow (Safe)"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Fast (Risky)"
+  },
+  "batchSize": {
+    "message": "Batch Size"
+  },
+  "perBatch": {
+    "message": "/batch"
+  },
+  "confirmEach": {
+    "message": "Confirm before each batch"
+  },
+  "scanContent": {
+    "message": "Scan Content"
+  },
+  "startDelete": {
+    "message": "Start Delete"
+  },
+  "stop": {
+    "message": "Stop"
+  },
+  "deleted": {
+    "message": "Deleted"
+  },
+  "deleteResult": {
+    "message": "Delete Result"
+  },
+  "totalScanned": {
+    "message": "Total Scanned"
+  },
+  "successDeleted": {
+    "message": "Successfully Deleted"
+  },
+  "deleteFailed": {
+    "message": "Failed"
+  },
+  "warningMessage": {
+    "message": "⚠️ Delete operations cannot be undone, please use with caution"
+  },
+  "statusOpenTwitter": {
+    "message": "Please open X (Twitter) website first"
+  },
+  "statusScanning": {
+    "message": "Scanning content..."
+  },
+  "statusFound": {
+    "message": "Found $COUNT$ deletable items"
+  },
+  "statusScanFailed": {
+    "message": "Scan failed, please make sure X page is open and refresh"
+  },
+  "statusDeleting": {
+    "message": "Deleting content..."
+  },
+  "statusDeleteComplete": {
+    "message": "Delete complete!"
+  },
+  "statusStopped": {
+    "message": "Stopped"
+  },
+  "selectContentType": {
+    "message": "Please select at least one content type"
+  },
+  "confirmDelete": {
+    "message": "Are you sure you want to delete $COUNT$ items?\nThis action cannot be undone!"
+  }
+}

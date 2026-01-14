@@ -1,0 +1,140 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - Supprimer les Tweets en Lot"
+  },
+  "extDescription": {
+    "message": "Supprimez les tweets, réponses et reposts sur X (Twitter) en lot, avec des filtres de type de contenu, plage de temps et mots-clés"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "Supprimer le Contenu X/Twitter en Lot"
+  },
+  "contentType": {
+    "message": "Type de Contenu"
+  },
+  "tweets": {
+    "message": "Tweets"
+  },
+  "replies": {
+    "message": "Réponses"
+  },
+  "reposts": {
+    "message": "Reposts"
+  },
+  "timeRange": {
+    "message": "Plage de Temps"
+  },
+  "startDate": {
+    "message": "Date de Début"
+  },
+  "endDate": {
+    "message": "Date de Fin"
+  },
+  "last7Days": {
+    "message": "7 derniers jours"
+  },
+  "last30Days": {
+    "message": "30 derniers jours"
+  },
+  "last3Months": {
+    "message": "3 derniers mois"
+  },
+  "last1Year": {
+    "message": "Dernière année"
+  },
+  "all": {
+    "message": "Tout"
+  },
+  "keywordFilter": {
+    "message": "Filtre par Mots-clés"
+  },
+  "keywordPlaceholder": {
+    "message": "Entrez les mots-clés, séparés par des virgules"
+  },
+  "keywordHint": {
+    "message": "Supprimer uniquement le contenu contenant ces mots-clés (laisser vide pour tout supprimer)"
+  },
+  "excludeKeywords": {
+    "message": "Exclure le contenu avec mots-clés"
+  },
+  "advancedOptions": {
+    "message": "Options Avancées"
+  },
+  "deleteSpeed": {
+    "message": "Vitesse de Suppression"
+  },
+  "speedSlow": {
+    "message": "Lent (Sûr)"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Rapide (Risqué)"
+  },
+  "batchSize": {
+    "message": "Taille du Lot"
+  },
+  "perBatch": {
+    "message": "/lot"
+  },
+  "confirmEach": {
+    "message": "Confirmer avant chaque lot"
+  },
+  "scanContent": {
+    "message": "Scanner le Contenu"
+  },
+  "startDelete": {
+    "message": "Démarrer la Suppression"
+  },
+  "stop": {
+    "message": "Arrêter"
+  },
+  "deleted": {
+    "message": "Supprimés"
+  },
+  "deleteResult": {
+    "message": "Résultat de Suppression"
+  },
+  "totalScanned": {
+    "message": "Total Scanné"
+  },
+  "successDeleted": {
+    "message": "Supprimés avec Succès"
+  },
+  "deleteFailed": {
+    "message": "Échecs"
+  },
+  "warningMessage": {
+    "message": "⚠️ Les suppressions ne peuvent pas être annulées, utilisez avec prudence"
+  },
+  "statusOpenTwitter": {
+    "message": "Veuillez d'abord ouvrir X (Twitter)"
+  },
+  "statusScanning": {
+    "message": "Analyse du contenu..."
+  },
+  "statusFound": {
+    "message": "$COUNT$ éléments trouvés à supprimer"
+  },
+  "statusScanFailed": {
+    "message": "Échec de l'analyse, assurez-vous que X est ouvert et actualisez"
+  },
+  "statusDeleting": {
+    "message": "Suppression du contenu..."
+  },
+  "statusDeleteComplete": {
+    "message": "Suppression terminée!"
+  },
+  "statusStopped": {
+    "message": "Arrêté"
+  },
+  "selectContentType": {
+    "message": "Veuillez sélectionner au moins un type de contenu"
+  },
+  "confirmDelete": {
+    "message": "Êtes-vous sûr de vouloir supprimer $COUNT$ éléments?\nCette action ne peut pas être annulée!"
+  }
+}

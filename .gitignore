@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Build files
+*.zip
+*.crx
+
+# Test files
+test/
+tests/
+
+# Documentation build
+docs/_build/
+
+# Generated files
+generate-icons.html

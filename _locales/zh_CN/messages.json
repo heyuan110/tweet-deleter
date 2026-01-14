@@ -1,0 +1,140 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - 批量删除推文"
+  },
+  "extDescription": {
+    "message": "批量删除 X (Twitter) 上的推文、回复和转发，支持内容类型、时间范围和关键词过滤"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "批量删除 X/Twitter 内容"
+  },
+  "contentType": {
+    "message": "内容类型"
+  },
+  "tweets": {
+    "message": "推文"
+  },
+  "replies": {
+    "message": "回复"
+  },
+  "reposts": {
+    "message": "转发"
+  },
+  "timeRange": {
+    "message": "时间范围"
+  },
+  "startDate": {
+    "message": "开始日期"
+  },
+  "endDate": {
+    "message": "结束日期"
+  },
+  "last7Days": {
+    "message": "最近7天"
+  },
+  "last30Days": {
+    "message": "最近30天"
+  },
+  "last3Months": {
+    "message": "最近3个月"
+  },
+  "last1Year": {
+    "message": "最近1年"
+  },
+  "all": {
+    "message": "全部"
+  },
+  "keywordFilter": {
+    "message": "关键词过滤"
+  },
+  "keywordPlaceholder": {
+    "message": "输入关键词，多个用逗号分隔"
+  },
+  "keywordHint": {
+    "message": "只删除包含这些关键词的内容（留空则删除所有匹配内容）"
+  },
+  "excludeKeywords": {
+    "message": "排除包含关键词的内容"
+  },
+  "advancedOptions": {
+    "message": "高级选项"
+  },
+  "deleteSpeed": {
+    "message": "删除速度"
+  },
+  "speedSlow": {
+    "message": "慢速 (安全)"
+  },
+  "speedNormal": {
+    "message": "正常"
+  },
+  "speedFast": {
+    "message": "快速 (有风险)"
+  },
+  "batchSize": {
+    "message": "批量大小"
+  },
+  "perBatch": {
+    "message": "条/批"
+  },
+  "confirmEach": {
+    "message": "每批删除前确认"
+  },
+  "scanContent": {
+    "message": "扫描内容"
+  },
+  "startDelete": {
+    "message": "开始删除"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "deleted": {
+    "message": "已删除"
+  },
+  "deleteResult": {
+    "message": "删除结果"
+  },
+  "totalScanned": {
+    "message": "总计扫描"
+  },
+  "successDeleted": {
+    "message": "成功删除"
+  },
+  "deleteFailed": {
+    "message": "删除失败"
+  },
+  "warningMessage": {
+    "message": "⚠️ 删除操作不可撤销，请谨慎使用"
+  },
+  "statusOpenTwitter": {
+    "message": "请先打开 X (Twitter) 网站"
+  },
+  "statusScanning": {
+    "message": "正在扫描内容..."
+  },
+  "statusFound": {
+    "message": "找到 $COUNT$ 条可删除内容"
+  },
+  "statusScanFailed": {
+    "message": "扫描失败，请确保已打开 X 页面并刷新"
+  },
+  "statusDeleting": {
+    "message": "正在删除内容..."
+  },
+  "statusDeleteComplete": {
+    "message": "删除完成！"
+  },
+  "statusStopped": {
+    "message": "已停止删除"
+  },
+  "selectContentType": {
+    "message": "请至少选择一种内容类型"
+  },
+  "confirmDelete": {
+    "message": "确定要删除这 $COUNT$ 条内容吗？\n此操作不可撤销！"
+  }
+}

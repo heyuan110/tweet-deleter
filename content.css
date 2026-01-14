@@ -1,0 +1,69 @@
+/* Tweet Deleter - Content Styles */
+/* 注入到 Twitter 页面的样式 */
+
+/* 标记正在处理的推文 */
+.tweet-deleter-processing {
+  position: relative;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.tweet-deleter-processing::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(29, 155, 240, 0.1);
+  border: 2px solid #1d9bf0;
+  border-radius: 16px;
+  animation: tweet-deleter-pulse 1.5s infinite;
+}
+
+@keyframes tweet-deleter-pulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* 标记已删除的推文 */
+.tweet-deleter-deleted {
+  position: relative;
+  opacity: 0.3;
+}
+
+.tweet-deleter-deleted::after {
+  content: '✓ Deleted';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00ba7c;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* 标记删除失败的推文 */
+.tweet-deleter-failed {
+  position: relative;
+}
+
+.tweet-deleter-failed::after {
+  content: '✗ Failed';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #f4212e;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}

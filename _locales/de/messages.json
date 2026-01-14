@@ -1,0 +1,140 @@
+{
+  "extName": {
+    "message": "Tweet Deleter - Tweets Stapelweise Löschen"
+  },
+  "extDescription": {
+    "message": "Löschen Sie Tweets, Antworten und Reposts auf X (Twitter) stapelweise, mit Filtern für Inhaltstyp, Zeitbereich und Schlüsselwörter"
+  },
+  "title": {
+    "message": "Tweet Deleter"
+  },
+  "subtitle": {
+    "message": "X/Twitter-Inhalte Stapelweise Löschen"
+  },
+  "contentType": {
+    "message": "Inhaltstyp"
+  },
+  "tweets": {
+    "message": "Tweets"
+  },
+  "replies": {
+    "message": "Antworten"
+  },
+  "reposts": {
+    "message": "Reposts"
+  },
+  "timeRange": {
+    "message": "Zeitbereich"
+  },
+  "startDate": {
+    "message": "Startdatum"
+  },
+  "endDate": {
+    "message": "Enddatum"
+  },
+  "last7Days": {
+    "message": "Letzte 7 Tage"
+  },
+  "last30Days": {
+    "message": "Letzte 30 Tage"
+  },
+  "last3Months": {
+    "message": "Letzte 3 Monate"
+  },
+  "last1Year": {
+    "message": "Letztes Jahr"
+  },
+  "all": {
+    "message": "Alle"
+  },
+  "keywordFilter": {
+    "message": "Schlüsselwortfilter"
+  },
+  "keywordPlaceholder": {
+    "message": "Schlüsselwörter eingeben, durch Kommas getrennt"
+  },
+  "keywordHint": {
+    "message": "Nur Inhalte mit diesen Schlüsselwörtern löschen (leer lassen, um alles zu löschen)"
+  },
+  "excludeKeywords": {
+    "message": "Inhalte mit Schlüsselwörtern ausschließen"
+  },
+  "advancedOptions": {
+    "message": "Erweiterte Optionen"
+  },
+  "deleteSpeed": {
+    "message": "Löschgeschwindigkeit"
+  },
+  "speedSlow": {
+    "message": "Langsam (Sicher)"
+  },
+  "speedNormal": {
+    "message": "Normal"
+  },
+  "speedFast": {
+    "message": "Schnell (Riskant)"
+  },
+  "batchSize": {
+    "message": "Stapelgröße"
+  },
+  "perBatch": {
+    "message": "/Stapel"
+  },
+  "confirmEach": {
+    "message": "Vor jedem Stapel bestätigen"
+  },
+  "scanContent": {
+    "message": "Inhalte Scannen"
+  },
+  "startDelete": {
+    "message": "Löschen Starten"
+  },
+  "stop": {
+    "message": "Stoppen"
+  },
+  "deleted": {
+    "message": "Gelöscht"
+  },
+  "deleteResult": {
+    "message": "Löschergebnis"
+  },
+  "totalScanned": {
+    "message": "Gesamt Gescannt"
+  },
+  "successDeleted": {
+    "message": "Erfolgreich Gelöscht"
+  },
+  "deleteFailed": {
+    "message": "Fehlgeschlagen"
+  },
+  "warningMessage": {
+    "message": "⚠️ Löschvorgänge können nicht rückgängig gemacht werden, bitte mit Vorsicht verwenden"
+  },
+  "statusOpenTwitter": {
+    "message": "Bitte öffnen Sie zuerst X (Twitter)"
+  },
+  "statusScanning": {
+    "message": "Inhalte werden gescannt..."
+  },
+  "statusFound": {
+    "message": "$COUNT$ löschbare Elemente gefunden"
+  },
+  "statusScanFailed": {
+    "message": "Scan fehlgeschlagen, stellen Sie sicher, dass X geöffnet ist und aktualisieren Sie"
+  },
+  "statusDeleting": {
+    "message": "Inhalte werden gelöscht..."
+  },
+  "statusDeleteComplete": {
+    "message": "Löschen abgeschlossen!"
+  },
+  "statusStopped": {
+    "message": "Gestoppt"
+  },
+  "selectContentType": {
+    "message": "Bitte wählen Sie mindestens einen Inhaltstyp aus"
+  },
+  "confirmDelete": {
+    "message": "Sind Sie sicher, dass Sie $COUNT$ Elemente löschen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden!"
+  }
+}

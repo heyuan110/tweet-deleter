@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d9bf0"/>
+      <stop offset="100%" style="stop-color:#0c7abf"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="url(#bg)"/>
+  <!-- 删除图标 -->
+  <g fill="white">
+    <!-- 垃圾桶盖子 -->
+    <rect x="36" y="38" width="56" height="6" rx="3"/>
+    <!-- 垃圾桶把手 -->
+    <rect x="50" y="30" width="28" height="8" rx="2"/>
+    <!-- 垃圾桶身体 -->
+    <path d="M40 48 L44 96 C44 98 46 100 48 100 L80 100 C82 100 84 98 84 96 L88 48 Z"/>
+    <!-- 垃圾桶条纹 -->
+    <rect x="52" y="56" width="4" height="36" rx="2" fill="#1d9bf0"/>
+    <rect x="62" y="56" width="4" height="36" rx="2" fill="#1d9bf0"/>
+    <rect x="72" y="56" width="4" height="36" rx="2" fill="#1d9bf0"/>
+  </g>
+</svg>
