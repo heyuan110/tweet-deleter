@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="./README_CN.md">简体中文</a> | English
+</p>
+
+<p align="center">
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
@@ -44,16 +48,16 @@
 
 ### From Source (Developer Mode)
 
-1. Clone or download this repository:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/tweet-deleter-extension.git
+   git clone https://github.com/heyuan110/tweet-deleter.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
 
-3. Enable "Developer mode" in the top right corner
+3. Enable **Developer mode** in the top right corner
 
-4. Click "Load unpacked" and select the `tweet-deleter-extension` folder
+4. Click **Load unpacked** and select the `tweet-deleter` folder
 
 5. The extension icon should appear in your browser toolbar
 
@@ -78,12 +82,6 @@
 
 6. **Monitor Progress** - Watch the progress bar and stop at any time if needed
 
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/popup.png" alt="Extension Popup" width="360">
-</p>
-
 ## Advanced Options
 
 | Option | Description |
@@ -95,6 +93,7 @@
 ## Privacy
 
 This extension:
+
 - ✅ Runs entirely in your browser
 - ✅ Does not collect any personal data
 - ✅ Does not send data to external servers
@@ -110,7 +109,7 @@ This extension:
 ## Project Structure
 
 ```
-tweet-deleter-extension/
+tweet-deleter/
 ├── manifest.json          # Extension configuration
 ├── popup.html             # Extension popup UI
 ├── popup.css              # Popup styles
@@ -156,7 +155,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Inspired by [deletetweets.ai](https://deletetweets.ai)
 - Icon design based on Twitter's brand colors
 
 ---
